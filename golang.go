@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-//export PrintInt
-func PrintInt(x int) {
+//export GoPrintInt
+func GoPrintInt(x int) {
 	fmt.Println(fmt.Sprintf("Golang code :D %d", x))
 }
 
